@@ -20,4 +20,4 @@ jobs:
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
         run: |
-          surge ./ --domain https://mi-pagina-web.surge.sh
+          surge ./ --domain andyaugustoencarnacion.surge.sh
